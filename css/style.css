@@ -115,11 +115,11 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #ffffff;
 }
 
 @media(min-width:768px) {
@@ -281,7 +281,8 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 200px;
+        padding-bottom: 200px;
     }
 
     .download-section {
