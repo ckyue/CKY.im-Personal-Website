@@ -59,9 +59,43 @@
     </div>
   </div>
 
+  <!-- Skills -->
+  <div class="section" id="skills">
+    <div class="container">
+      <h3 class = "center-align section-title fading-in">Skills</h3>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
 
-  <div class="container" id = "projects" class="proj-section">
-    <div class="section">
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Projects -->
+  <div class="section" id = "projects" class="proj-section">
+    <div class="container">
     <h3 class = "center-align section-title fading-in">Projects</h3>
       <div class="row">
         <div class="col m12 l4">
@@ -235,13 +269,35 @@ magnitude of vibration in real-time according to the distance from obstacles. Pr
     </div>
   </div>
 
-  <footer class="page-footer fading-in green">
+  <footer class="page-footer fading-in  green lighten-1" id="contacts">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Contact Me</h5>
-          <p class="grey-text text-lighten-4">There should be a Contact Form : ></p>
-
+          <form class="col s12" action="MAILTO:yuechuankai@gmail.com" method="post" enctype="text/plain">
+              <div class="row">
+                  <div class="input-field col s6">
+                      <i class="mdi-action-account-circle prefix white-text"></i>
+                      <input id="icon_prefix" name="name" type="text" class="validate white-text">
+                      <label for="icon_prefix" class="white-text">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                      <i class="mdi-communication-email prefix white-text"></i>
+                      <input id="icon_email" name="email" type="email" class="validate white-text">
+                      <label for="icon_email" class="white-text">Email-id</label>
+                  </div>
+                  <div class="input-field col s12">
+                      <i class="mdi-editor-mode-edit prefix white-text"></i>
+                      <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
+                      <label for="icon_prefix2" class="white-text">Message</label>
+                  </div>
+                  <div class="col offset-s7 s5">
+                      <button class="btn waves-effect waves-light blue lighten-2" type="submit">Submit
+                          <i class="mdi-content-send right white-text"></i>
+                      </button>
+                  </div>
+              </div>
+          </form>
 
         </div>
         <div class="col l3 s12">
