@@ -1,217 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Chuankai Yue</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hello. My name is Chuankai Yue. Welcome to my Homepage.">
-    <meta name="author" content="Chuankai Yue">
-    <!-- Website Title -->
-    <title>Chuankai Yue</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
+<body>
+  <!-- navigation bar -->
+  <div class="navbar-fixed">
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">Chuankai Yue</a>
+      <ul class="hide-on-med-and-down right navbar-sub">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-user fa-lg"></i>  <span class="light">Chuankai</span> Yue
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#page-top">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">Resume</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Chuankai Yue</h1>
-                        <p class="intro-text">Computer Engineering Student<br>@UWaterloo</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- About Section -->
-    <section id="about" class="content-section" style="background-color:#400e8a;">
-      <div class="container">
-        <div class="row" >
-          <div class="col-lg-6 col-sm-6">
-              <img class="img-responsive img-center" src="img/mypic.jpg" alt="" style="margin:auto">
-          </div>
-          <div class="col-lg-6 col-sm-6">
-            <div class="row">
-              <h2 style="text-align: center">About Me</h2>
-              <div class="mysummary">
-                <p>Hello, I am Chuankai Yue. Hello, I am Chuankai Yue. Hello, I am Chuankai Yue. Hello, I am Chuankai Yue.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- front section -->
+  <div class="section no-pad-bot section-bg" id="index-banner">
+    <div class="container title-section">
+      <div class="mypic"></div>
+      <h1 class="header center black-text">Chuankai Yue</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Computer Engineering student at the University of Waterloo</h5>
       </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="content-section text-center" style="background-color:#6605e7;">
-      <div class="container">
-      <div class="skills-title">
-        <h2>Skills</h2>
+      <div class="row center">
+        <a href="https://ca.linkedin.com/in/ckyue" class="btn-large waves-effect waves-light btn-linkedin">
+          <i class="fa fa-linkedin"></i>
+          <span class="btn-title">LinkedIn</span>
+        </a>
+        <a href="https://github.com/ckyue" class="btn-large waves-effect waves-light btn-github">
+          <i class="fa fa-github"></i>
+          <span class="btn-title">GitHub</span>
+        </a>
       </div>
-      <div class="row top-buffer">
-        <div class="col-sm-1 col-sm-offset-3">
-          <div class="label" style="font-size: 30px;background-color: #f9791e;margin-left:30px;">Java</div>
-        </div>
-        <div class="col-sm-1 col-sm-offset-1">
-          <div class="label" style="font-size: 50px;background-color: #659ad2">C++</div>
-        </div>
-        <div class="col-sm-1 col-sm-offset-1">
-          <div class="label" style="font-size: 30px;background-color: #659ad2">C</div>
-        </div>
-      </div>
-      <div class="row top-buffer">
-        <div class="col-sm-1 col-sm-offset-3">
-          <div class="label" style="font-size: 40px;background-color: #e34c26;margin-right:50px;" >HTML</div>
-        </div>
-        <div class="col-sm-1 col-sm-offset-1">
-          <div class="label" style="font-size: 40px;background-color: #0070ba">CSS</div>
-        </div>
-        <div class="col-sm-1">
-          <div class="label" style="font-size: 30px;background-color: #f8dc3d;margin-left:50px;">JavaScript</div>
-        </div>
-      </div>
-      <div class="row top-buffer">
-        <div class="col-sm-1 col-sm-offset-3">
-          <div class="label" style="font-size: 35px;background-color: #563b7e;margin-left:60px;">Bootstrap</div>
-        </div>
-        <div class="col-sm-1 col-sm-offset-2">
-          <div class="label" style="font-size: 30px;background-color: #1d8fc9">WordPress</div>
-        </div>
-      </div>
-      <div class="row top-buffer bottom-buffer">
-        <div class="col-sm-1 col-sm-offset-4">
-          <div class="label" style="font-size: 30px;background-color: #505050">3D Printing</div>
-        </div>
-        <div class="col-sm-1 col-sm-offset-1">
-          <div class="label" style="font-size: 35px;background-color: #00929f;margin-left:40px;">Arduino</div>
-        </div>
-      </div>
-      </div>
-    </section>
-
-<!-- Portfolio -->
-    <div class="content-section" id="projects" style="background-color:#7e2ffb;">
-      <div class="container">
-      <div class="row">
-        <div class="port-block">
-          <img src="img/p2.jpg" style="height:100%;width:100%">
-        </div>
-        <div class="port-block">
-          <img src="img/p1.jpg" style="height:100%;width:100%">
-        </div>
-        <div class="port-block">
-          <img src="img/p6.jpg" style="height:100%;width:100%">
-        </div>
-      </div>
-      <div class="row">
-        <div class="port-block">
-          <img src="img/p4.jpg" style="height:100%;width:100%">
-        </div>
-        <div class="port-block">
-          <img src="img/p3.jpg" style="height:100%;width:100%">
-        </div>
-        <div class="port-block">
-          <img src="img/p5.jpg" style="height:100%;width:100%">
-        </div>
+      <br><br>
+      <div class="row center">
+        <a href="#"><i class="fa fa-chevron-down"></i><a>
       </div>
     </div>
   </div>
 
-    <!-- Map Section -->
-    <div class="content-section" id="contact" style="background-color:#924af8;">
-        <div id="map"></div>
-    </div>
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Chuankai Yue 2016</p>
+
+  <div class="container" id = "projects" class="proj-section"s>
+    <div class="section">
+    <h3 class = "center-align section-title">Projects</h3>
+      <div class="row">
+        <div class="col m12 l4">
+
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img src="img/p1_tn.jpg">
+            </div>
+            <div class="card-panel blue">
+              <span class="white-text proj-title">Personal Website</span>
+              <p class="white-text proj-des">CKY.im</p>
+            </div>
+            <div class="card-content">
+              <p>Developed on <b>Dreamweaver</b> and <b>Atom</b> with <b>HTML/CSS</b>, <b>Materialize</b> and <b>jQuery</b>. The purpose is to showcase software and hardware projects that I have done over university and high school period.</p>
+            </div>
+            <div class="card-action">
+              <div class="card-links" style="margin-bottom:0px;margin-left:-20px;">
+                <a href="https://github.com/ckyue/ckyue.github.io"><i class="fa fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img src="img/p3_tn.jpg">
+            </div>
+            <div class="card-panel blue">
+              <span class="white-text proj-title">Self-Designed 3D Printer</span>
+              <p class="white-text proj-des">Based on KOSSEL</p>
+            </div>
+            <div class="card-content">
+              <p>Designed and sketched every single 3D-Printed structural part with <b>Solidworks</b> , printed by my previously-built <b>Reprap</b> 3D Printer.</p>
+              <p>Skills were practiced with <b>Arduino</b>, <b>G-Code</b>, RAMPS board, <b>Repetier Firmware</b>, Host and other Open-sourced Software/Hardware.</p>
+            </div>
+            <div class="card-action">
+              <div class="card-links">
+                <a href="https://github.com/ckyue/CKY-s-3D-Printer"><i class="fa fa-github"></i> GitHub</a>
+                <a href="https://www.youtube.com/watch?v=SoKRBGLuLTg"><i class="fa fa-youtube-play"></i> YouTube</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img src="img/p7_tn.jpg">
+            </div>
+            <div class="card-panel blue">
+              <span class="white-text proj-title">RC Robotic Car</span>
+              <p class="white-text proj-des">Smart guy</p>
+            </div>
+            <div class="card-content">
+              <p>Line following</p>
+              <p>Obstacle detection and avoiding</p>
+              <p>Bluetooth controlled</p>
+            </div>
+            <div class="card-action">
+              <div class="card-links">
+                <a href="https://github.com/ckyue/ckyue.github.io"><i class="fa fa-github"></i> GitHub</a>
+                <a href="https://www.youtube.com/watch?v=SoKRBGLuLTg"><i class="fa fa-youtube-play"></i> YouTube</a>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <div class="col m12 l4">
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img src="img/p2_tn.jpg">
+            </div>
+            <div class="card-panel blue">
+              <span class="white-text proj-title">Kicks4Love</span>
+              <p class="white-text proj-des">Fashion Sneaker Promotion Site</p>
+            </div>
+            <div class="card-content">
+              <p>Applied <b>HTML/CSS</b> in real world web application, while familiarized with <b>JavaScript</b> and <b>jQuery</b>.</p>
+              <p>Collaborated with sneakers enthusiasts and started a latest sportswear information website.</p>
+            </div>
+            <div class="card-action">
+              <div class="card-links">
+                <a href="http://115.29.55.157/">Go<i class="fa fa-arrow-right" style="margin-left:5px; margin-bottom:1px;"></i></a>
+                <p>
+                  <a href="https://www.facebook.com/kicks4love/"><i class="fa fa-facebook-official"></i> Facebook</a>
+                  <a href="http://weibo.com/u/5704994024/"><i class="fa fa-weibo"></i> Weibo</a>
+                </p>
+              </div>
+            </div>
+          </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img src="img/p6_tn.jpg">
+            </div>
+            <div class="card-panel blue">
+              <span class="white-text proj-title">Wearable "Eyes"</span>
+              <p class="white-text proj-des">Wearable Arduino Project</p>
+            </div>
+            <div class="card-content">
+              <p>Applied ultrasonic sensor that is able to identify ambient environment with obstacles, it gives feedback to visually-impaired users with varied
+magnitude of vibration in real-time according to the distance from obstacles. Prototyped on <b>Fritzing</b>. Patent was granted.</p>
+            </div>
+            <div class="card-action">
+              <div class="card-links">
+                <a href="https://github.com/ckyue/Wearable-Seeing-Eye-for-Visually-Impared-People"><i class="fa fa-github"></i> Github</a>
+              </div>
+            </div>
+          </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+        </div>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+        <div class="col m12 l4">
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img src="img/p8_tn.jpg">
+            </div>
+            <div class="card-panel blue">
+              <span class="white-text proj-title">Even More Lucky</span>
+              <p class="white-text proj-des">A Chrome Extension</p>
+            </div>
+            <div class="card-content">
+              <p>Developed with <b>Google Chrome</b>, <b>JavaScript</b> and <b>HTML/CSS</b> during EngHack Fall 2015.</p>
+              <p>A <b>Chrome Extension</b> that enhances user's experiences when doing Google search. By injecting Content Script to DOM, result pages can be opened on 1-click.</p>
+            </div>
+            <div class="card-action">
+              <div class="card-links">
+                <a href="https://github.com/ckyue/Even-More-Lucky"><i class="fa fa-github"></i> GitHub</a>
+                <a href="http://devpost.com/software/enghack-f2015"><i class="fa fa-code"></i> Devpost</a>
+              </div>
+            </div>
+          </div>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/custom.js"></script>
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img src="img/p5_tn.jpg">
+            </div>
+            <div class="card-panel blue">
+              <span class="white-text proj-title">Electric Longboard</span>
+              <p class="white-text proj-des">"Has own transportation" requirement met </p>
+            </div>
+            <div class="card-content">
+              <p>Built it from my original longboard. High-torque brushless motor drived one of the wheels, which was controlled by Electric Speed Controller.</p>
+            </div>
+            <div class="card-action">
+              <div class="card-links">
+                <a href="https://youtu.be/USlsp01y_w8"><i class="fa fa-youtube-play"></i> YouTube</a>
+              </div>
+            </div>
+          </div>
 
-</body>
 
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img src="img/p4_tn.jpg">
+            </div>
+               <div class="card-panel blue">
+                 <span class="white-text proj-title">Online Weather Monitoring System</span>
+                 <p class="white-text proj-des">Internet of Thing (IoT)</p>
+               </div>
+              <div class="card-content">
+                <p>Post real-time weather data on Yeelink from serial port reading. Data is collected from periphery sensors by Arduino Mega with W5100 Ethernet Board.</p>
+                <p>Temperature, Humidity, PM10/PM2.5, Luminosity sensors are equipped.</p>
+              </div>
+              <div class="card-action">
+                <div class="card-links">
+                  <a href="http://www.yeelink.net/devices/6456"><i class="fa fa-link"></i> Yeelink</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="page-footer green">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact Me</h5>
+          <p class="grey-text text-lighten-4">There should be a Contact Form : ></p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Look At My:</h5>
+          <ul>
+            <li><a class="white-text" href="#index-banner">My Bio</a></li>
+            <li><a class="white-text" href="#skills">Skills</a></li>
+            <li><a class="white-text" href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Social</h5>
+          <ul>
+            <li>
+                <a class="white-text" href="https://ca.linkedin.com/in/ckyue">
+                    <i class="small fa fa-linkedin white-text material-icons"></i> Linkedin
+                </a>
+            </li>
+            <li>
+                <a class="white-text" href="https://github.com/ckyue">
+                    <i class="small fa fa-github white-text material-icons"></i> Github
+                </a>
+            </li>
+            <li>
+                <a class="white-text" href="https://www.youtube.com/channel/UCyKkxJDEumr4BGoyEjCQI1Q">
+                    <i class="small fa fa-youtube-square white-text material-icons"></i> YouTube
+                </a>
+            </li>
+              <li>
+                  <a class="white-text" href="https://www.facebook.com/yuechuankai">
+                      <i class="small fa fa-facebook-square white-text material-icons"></i> Facebook
+                  </a>
+              </li>
+              <li>
+                  <a class="white-text" href="https://www.instagram.com/cky.im/">
+                      <i class="small fa fa-instagram white-text material-icons"></i> Instagram
+                  </a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by Chuankai Yue with ♥ at UWaterloo
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
 </html>
