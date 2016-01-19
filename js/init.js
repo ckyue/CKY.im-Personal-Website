@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(".fading-in-first").hide(0).delay(50).fadeIn(2000)
+  $(".fading-in-first").hide(0).fadeIn(2000)
 });
 
 (function($){
