@@ -32,7 +32,7 @@ $(window).scroll(function(d,h) { // on scroll
         // console.log($(window).scrollTop());
         if(jQuery.browser.mobile == false){
           sectionsPos = $(this).offset().top + $(this).height();
-          currPos = $(window).scrollTop() + $(window).height() + 300;
+          currPos = $(window).scrollTop() + $(window).height() + 250;
           if (sectionsPos < currPos) $(this).fadeTo(700,1);
         }
         if(jQuery.browser.mobile == true){
