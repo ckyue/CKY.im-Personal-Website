@@ -13,6 +13,10 @@ function autoResizeDiv()
 window.onresize = autoResizeDiv;
 autoResizeDiv();
 
+$(document).ready(function(){
+	$(".fading-in-first").hide(0).delay(50).fadeIn(2000)
+});
+
 // cards fade in
 sections = $(".fading-in").fadeTo(0, 0); //fade to 0 initially
 $(window).scroll(function(d,h) { // on scroll
