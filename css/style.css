@@ -66,23 +66,44 @@ ul{
 .navbar-sub a{
   font-size: 22px;
 }
-
+/*mobile size for front pic*/
 .mypic{
   margin-left:auto;
   margin-right:auto;
   top:10%;
-	width: 300px;
-	height: 300px;
+	width: 150px;
+	height: 150px;
   position: relative;
   margin: auto;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url("../img/mypic.jpg") no-repeat;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background: url("../img/mypic_mobile.jpg") no-repeat;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
+
+/*desktop size for front pic*/
+@media(min-width:768px) {
+  .mypic{
+    margin-left:auto;
+    margin-right:auto;
+    top:10%;
+  	width: 300px;
+  	height: 300px;
+    position: relative;
+    margin: auto;
+  	border-radius: 150px;
+  	-webkit-border-radius: 150px;
+  	-moz-border-radius: 150px;
+  	background: url("../img/mypic.jpg") no-repeat;
+  	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+}
+
 
 .btn-large{
   width: 140px;
