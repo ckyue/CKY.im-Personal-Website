@@ -38,7 +38,7 @@ $(window).scroll(function(d,h) { // on scroll
         if(jQuery.browser.mobile == true){
           sectionsPos = $(this).offset().top + $(this).height();
           currPos = $(window).scrollTop() + $(window).height() + 450;
-          if (sectionsPos < currPos) $(this).fadeTo(1000,1);
+          if (sectionsPos < currPos) $(this).fadeTo(500,1);
         }
     });
 });
