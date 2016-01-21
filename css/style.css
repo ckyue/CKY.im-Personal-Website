@@ -2,7 +2,10 @@ body{
   background-color: #F6F6F6;
 }
 ul{
-  color: black
+  color: #555555;
+}
+.header{
+  color: #444444 !important;
 }
 .icon-block {
   padding: 0 15px;
@@ -212,7 +215,7 @@ ul{
 }
 .card-content p{
   font-size: 18px;
-  color: black !important;
+  color: #555555 !important;
 }
 .card-content p{
   text-indent:30px;
