@@ -42,3 +42,33 @@ $(window).scroll(function(d,h) { // on scroll
         }
     });
 });
+
+$("#totop").click(function () {
+    var href = $(this).attr("href");
+    var pos = $(href).offset().top;
+    $("html,body").animate({scrollTop: pos}, 1000);
+    return false;
+});
+
+$("#toskills").click(function () {
+    var href = $(this).attr("href");
+    var pos = $(href).offset().top;
+    $("html,body").animate({scrollTop: pos}, 1000);
+    return false;
+});
+
+
+$("#toprojects").click(function () {
+    var href = $(this).attr("href");
+    var pos = $(href).offset().top;
+    $("html,body").animate({scrollTop: pos}, 1000);
+    return false;
+});
+
+
+$("#tocontacts").click(function () {
+    var href = $(this).attr("href");
+    var pos = $(href).offset().top;
+    $("html,body").animate({scrollTop: pos}, 1000);
+    return false;
+});
